@@ -1,36 +1,20 @@
-/*import './App.css';
-import React from 'react';
-import { Layout } from './components/Layout';
-
-function App() {
-  return (
-    <div className="App">
-      <Layout />
-    </div>
-  );
-}
-
-export default App;*/
-
 import './App.css';
-import React, { useState } from 'react';
-import { Layout } from './components/Layout';
+import React from 'react';
+import { Outlet, Link } from 'react-router-dom';
 
-function App() {
-  const [theme, setTheme] = useState('light');
-
-  const toggleTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : theme === 'dark' ? 'sunset' : 'light';
-    setTheme(newTheme);
-    document.documentElement.className = newTheme === 'light' ? '' : `theme-${newTheme}`;
-  };
-
+const App = () => {
   return (
     <div className="App">
-      <Layout theme={theme} toggleTheme={toggleTheme} />
+      <nav>
+        <Link to="/">Home</Link> | 
+        <Link to="/baseball">Baseball</Link> | 
+        <Link to="/basketball">Basketball</Link> | 
+        <Link to="/football">Football</Link>
+      </nav>
+      <Outlet />
     </div>
   );
-}
+};
 
 export default App;
 
