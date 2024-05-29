@@ -1,0 +1,293 @@
+:root {
+  --primary-color: cadetblue;
+  --nav-background-color: #ffffff;
+  --nav-text-color: #333333;
+  --background-color: #e0f7fa; /* Light blue background */
+  --border-color: #cccccc;
+  --card-border-color: #d0d0d0;
+  --box-shadow-color: rgba(0, 0, 0, 0.2);
+  --spinner-primary-color: #5a31f4;
+  --spinner-secondary-color: #8463fd;
+  --spinner-size: 65px;
+  --spinner-border-width: calc(var(--spinner-size) * 0.05);
+  --content-text-color: #000000; /* Dark theme content text color */
+}
+
+.theme-dark {
+  --primary-color: darkslategray;
+  --nav-background-color: #333333;
+  --nav-text-color: #ffffff;
+  --background-color: #0e035f; /* Dark background */
+  --border-color: #444444;
+  --card-border-color: #555555;
+  --box-shadow-color: rgba(0, 0, 0, 0.5);
+  --spinner-primary-color: #ff6b6b;
+  --spinner-secondary-color: #ff8787;
+  --content-text-color: #ffffff; /* Dark theme content text color */
+}
+
+.theme-sunset {
+  --primary-color: #ff4500;
+  --nav-background-color: #ffcccb;
+  --nav-text-color: #8b0000;
+  --background-color: #ffd700; /* Sunset background */
+  --border-color: #ffa07a;
+  --card-border-color: #ff7f50;
+  --box-shadow-color: rgba(255, 69, 0, 0.5);
+  --spinner-primary-color: #ffa500;
+  --spinner-secondary-color: #ff4500;
+  --content-text-color: #8b0000; /* Sunset theme content text color */
+}
+
+.theme-nba {
+  --primary-color: #1D428A; /* NBA Blue */
+  --nav-background-color: #C9082A; /* NBA Red */
+  --nav-text-color: #ffffff;
+  --background-color: #EFEFEF; /* Light gray background */
+  --border-color: #D1D3D4;
+  --card-border-color: #A1A3A4;
+  --box-shadow-color: rgba(0, 0, 0, 0.2);
+  --spinner-primary-color: #1D428A;
+  --spinner-secondary-color: #C9082A;
+  --content-text-color: #000000;
+}
+
+.theme-nfl {
+  --primary-color: #013369; /* NFL Blue */
+  --nav-background-color: #D50A0A; /* NFL Red */
+  --nav-text-color: #ffffff;
+  --background-color: #EFEFEF; /* Light gray background */
+  --border-color: #D1D3D4;
+  --card-border-color: #A1A3A4;
+  --box-shadow-color: rgba(0, 0, 0, 0.2);
+  --spinner-primary-color: #013369;
+  --spinner-secondary-color: #D50A0A;
+  --content-text-color: #000000;
+}
+
+.theme-mlb {
+  --primary-color: #002D72; /* MLB Blue */
+  --nav-background-color: #C41E3A; /* MLB Red */
+  --nav-text-color: #ffffff;
+  --background-color: #EFEFEF; /* Light gray background */
+  --border-color: #D1D3D4;
+  --card-border-color: #A1A3A4;
+  --box-shadow-color: rgba(0, 0, 0, 0.2);
+  --spinner-primary-color: #002D72;
+  --spinner-secondary-color: #C41E3A;
+  --content-text-color: #000000;
+}
+
+body {
+  background-color: var(--background-color);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: block;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--nav-background-color);
+  box-shadow: 0 2px 5px var(--box-shadow-color);
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  background-color: var(--nav-background-color);
+  color: var(--nav-text-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--nav-text-color);
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: var(--primary-color);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 20px 20px; /* Adjusted for fixed header */
+  color: var(--content-text-color);
+}
+
+.flex-centered {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 5px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid var(--card-border-color);
+  box-shadow: 0 1px 3px var(--box-shadow-color);
+  background-color: #fff;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-detail-container {
+  display: flex;
+}
+
+.product-details {
+  align-self: center;
+  padding-left: 100px;
+}
+
+.thumbnail {
+  margin-right: 20px;
+}
+
+/* Spinner */
+.semipolar-spinner,
+.semipolar-spinner * {
+  box-sizing: border-box;
+}
+
+.semipolar-spinner {
+  height: var(--spinner-size);
+  width: var(--spinner-size);
+  position: relative;
+  left: 50%;
+}
+
+.semipolar-spinner .ring {
+  border-radius: 50%;
+  position: absolute;
+  border: var(--spinner-border-width) solid transparent;
+  border-top-color: var(--spinner-primary-color);
+  border-left-color: var(--spinner-secondary-color);
+  animation: semipolar-spinner-animation 2s infinite;
+}
+
+.semipolar-spinner .ring:nth-child(1) {
+  height: calc(var(--spinner-size) - var(--spinner-size) * 0.2 * 0);
+  width: calc(var(--spinner-size) - var(--spinner-size) * 0.2 * 0);
+  top: calc(var(--spinner-size) * 0.1 * 0);
+  left: calc(var(--spinner-size) * 0.1 * 0);
+  animation-delay: calc(2000ms * 0.1 * 4);
+  z-index: 5;
+}
+
+.semipolar-spinner .ring:nth-child(2) {
+  height: calc(var(--spinner-size) - var(--spinner-size) * 0.2 * 1);
+  width: calc(var(--spinner-size) - var(--spinner-size) * 0.2 * 1);
+  top: calc(var(--spinner-size) * 0.1 * 1);
+  left: calc(var(--spinner-size) * 0.1 * 1);
+  animation-delay: calc(2000ms * 0.1 * 3);
+  z-index: 4;
+}
+
+.semipolar-spinner .ring:nth-child(3) {
+  height: calc(var(--spinner-size) - var(--spinner-size) * 0.2 * 2);
+  width: calc(var(--spinner-size) - var(--spinner-size) * 0.2 * 2);
+  top: calc(var(--spinner-size) * 0.1 * 2);
+  left: calc(var(--spinner-size) * 0.1 * 2);
+  animation-delay: calc(2000ms * 0.1 * 2);
+  z-index: 3;
+}
+
+.semipolar-spinner .ring:nth-child(4) {
+  height: calc(var(--spinner-size) - var(--spinner-size) * 0.2 * 3);
+  width: calc(var(--spinner-size) - var(--spinner-size) * 0.2 * 3);
+  top: calc(var(--spinner-size) * 0.1 * 3);
+  left: calc(var(--spinner-size) * 0.1 * 3);
+  animation-delay: calc(2000ms * 0.1 * 1);
+  z-index: 2;
+}
+
+.semipolar-spinner .ring:nth-child(5) {
+  height: calc(var(--spinner-size) - var(--spinner-size) * 0.2 * 4);
+  width: calc(var(--spinner-size) - var(--spinner-size) * 0.2 * 4);
+  top: calc(var(--spinner-size) * 0.1 * 4);
+  left: calc(var(--spinner-size) * 0.1 * 4);
+  animation-delay: calc(2000ms * 0.1 * 0);
+  z-index: 1;
+}
+
+@keyframes semipolar-spinner-animation {
+  50% {
+    transform: rotate(360deg) scale(0.7);
+  }
+}
+
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.team img {
+  max-width: 100%;
+  height: auto;
+}
+
+.App {
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  padding: 1em;
+}
+
+nav a {
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.team-detail {
+  text-align: center;
+}
+
+button {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

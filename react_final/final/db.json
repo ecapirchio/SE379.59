@@ -1,0 +1,655 @@
+{
+  "baseball": [
+    {
+      "id": 1,
+      "team": "New York Yankees",
+      "division": "AL East",
+      "standing": "1st",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/New_York_Yankees_Primary_Logo.svg/1852px-New_York_Yankees_Primary_Logo.svg.png"
+    },
+    {
+      "id": 2,
+      "team": "Baltimore Orioles",
+      "division": "AL East",
+      "standing": "2nd",
+      "logo": "https://img.mlbstatic.com/mlb-images/image/private/t_16x9/t_w1536/mlb/onuqtjoiysaiwsh2kufu.jpg"
+    },
+    {
+      "id": 3,
+      "team": "Boston Red Sox",
+      "division": "AL East",
+      "standing": "3rd",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/RedSoxPrimary_HangingSocks.svg/1200px-RedSoxPrimary_HangingSocks.svg.png"
+    },
+    {
+      "id": 4,
+      "team": "Tampa Bay Rays",
+      "division": "AL East",
+      "standing": "4th",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Tampa_Bay_Rays_Logo.svg/1200px-Tampa_Bay_Rays_Logo.svg.png"
+    },
+    {
+      "id": 5,
+      "team": "Toronto Blue Jays",
+      "division": "AL East",
+      "standing": "5th",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Toronto_Blue_Jays_logo.svg/1200px-Toronto_Blue_Jays_logo.svg.png"
+    },
+    {
+      "id": 6,
+      "team": "Cleveland Guardians",
+      "division": "AL Central",
+      "standing": "1st",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Guardians_winged_%22G%22.svg/1200px-Guardians_winged_%22G%22.svg.png"
+    },
+    {
+      "id": 7,
+      "team": "Kansas City Royals",
+      "division": "AL Central",
+      "standing": "2nd",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Kansas_City_Royals.svg/1200px-Kansas_City_Royals.svg.png"
+    },
+    {
+      "id": 8,
+      "team": "Minnesota Twins",
+      "division": "AL Central",
+      "standing": "3rd",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Minnesota_Twins_wordmark_logo_%282023_rebrand%29.svg/1200px-Minnesota_Twins_wordmark_logo_%282023_rebrand%29.svg.png"
+    },
+    {
+      "id": 9,
+      "team": "Detroit Tigers",
+      "division": "AL Central",
+      "standing": "4th",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Detroit_Tigers_logo.svg/1200px-Detroit_Tigers_logo.svg.png"
+    },
+    {
+      "id": 10,
+      "team": "Chicago White Sox",
+      "division": "AL Central",
+      "standing": "5th",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Chicago_White_Sox.svg/1200px-Chicago_White_Sox.svg.png"
+    },
+    {
+      "id": 11,
+      "team": "Seattle Mariners",
+      "division": "AL West",
+      "standing": "1st",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Seattle_Mariners_logo_%28low_res%29.svg/800px-Seattle_Mariners_logo_%28low_res%29.svg.png"
+    },
+    {
+      "id": 12,
+      "team": "Texas Rangers",
+      "division": "AL West",
+      "standing": "2nd",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Texas_Rangers_logo.png/800px-Texas_Rangers_logo.png"
+    },
+    {
+      "id": 13,
+      "team": "Houston Astros",
+      "division": "AL West",
+      "standing": "3rd",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Houston-Astros-Logo.svg/2048px-Houston-Astros-Logo.svg.png"
+    },
+    {
+      "id": 14,
+      "team": "Oakland Athletics",
+      "division": "AL West",
+      "standing": "4th",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Oakland_A%27s_logo.svg"
+    },
+    {
+      "id": 15,
+      "team": "Los Angeles Angels",
+      "division": "AL West",
+      "standing": "5th",
+      "logo": "https://i.ebayimg.com/images/g/L5YAAOSw32BgQuYw/s-l1200.webp"
+    },
+    {
+      "id": 16,
+      "team": "Philadelphia Phillies",
+      "division": "NL East",
+      "standing": "1st",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Philadelphia_Phillies_%282019%29_logo.svg/1200px-Philadelphia_Phillies_%282019%29_logo.svg.png"
+    },
+    {
+      "id": 17,
+      "team": "Atlanta Braves",
+      "division": "NL East",
+      "standing": "2nd",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Atlanta_Braves_Insignia.svg/800px-Atlanta_Braves_Insignia.svg.png"
+    },
+    {
+      "id": 18,
+      "team": "Washington Nationals",
+      "division": "NL East",
+      "standing": "3rd",
+      "logo": "https://mktg.mlbstatic.com/nationals/fans/emoji/22/220609/patriotic_curly_w.png"
+    },
+    {
+      "id": 19,
+      "team": "New York Mets",
+      "division": "NL East",
+      "standing": "4th",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/New_York_Mets_Insignia.svg/2048px-New_York_Mets_Insignia.svg.png"
+    },
+    {
+      "id": 20,
+      "team": "Miami Marlins",
+      "division": "NL East",
+      "standing": "5th",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Marlins_team_logo.svg/1200px-Marlins_team_logo.svg.png"
+    },
+    {
+      "id": 21,
+      "team": "Milwaukee Brewers",
+      "division": "NL Central",
+      "standing": "1st",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Milwaukee_Brewers_logo.svg/1200px-Milwaukee_Brewers_logo.svg.png"
+    },
+    {
+      "id": 22,
+      "team": "Chicago Cubs",
+      "division": "NL Central",
+      "standing": "2nd",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Chicago_Cubs_logo.svg/2032px-Chicago_Cubs_logo.svg.png"
+    },
+    {
+      "id": 23,
+      "team": "Saint Louis Cardinals",
+      "division": "NL Central",
+      "standing": "3rd",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/St._Louis_Cardinals_logo.svg/1200px-St._Louis_Cardinals_logo.svg.png"
+    },
+    {
+      "id": 24,
+      "team": "Pittsburgh Pirates",
+      "division": "NL Central",
+      "standing": "4th",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Pittsburgh_Pirates_logo_2014.svg/1200px-Pittsburgh_Pirates_logo_2014.svg.png"
+    },
+    {
+      "id": 25,
+      "team": "Reds",
+      "division": "NL Central",
+      "standing": "5th",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Cincinnati_Reds_Logo.svg/1200px-Cincinnati_Reds_Logo.svg.png"
+    },
+    {
+      "id": 26,
+      "team": "Los Angeles Dodgers",
+      "division": "NL West",
+      "standing": "1st",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Los_Angeles_Dodgers_Logo.svg/1200px-Los_Angeles_Dodgers_Logo.svg.png"
+    },
+    {
+      "id": 27,
+      "team": "San Francisco Giants",
+      "division": "NL West",
+      "standing": "2nd",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/San_Francisco_Giants_Logo.svg/640px-San_Francisco_Giants_Logo.svg.png"
+    },
+    {
+      "id": 28,
+      "team": "San Diego Padres",
+      "division": "NL West",
+      "standing": "3rd",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/San_Diego_Padres_%282020%29_cap_logo.svg/2048px-San_Diego_Padres_%282020%29_cap_logo.svg.png"
+    },
+    {
+      "id": 29,
+      "team": "Arizona Diamondbacks",
+      "division": "NL West",
+      "standing": "4th",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Arizona_Diamondbacks_logo_teal.svg/1200px-Arizona_Diamondbacks_logo_teal.svg.png"
+    },
+    {
+      "id": 30,
+      "team": "Colorado Rockies",
+      "division": "NL West",
+      "standing": "5th",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Colorado_Rockies_logo.svg/1701px-Colorado_Rockies_logo.svg.png"
+    }
+  ],
+  "basketball": [
+    {
+      "id": 1,
+      "team": "Boston Celtics",
+      "division": "Atlantic",
+      "standing": "1st",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Boston_Celtics.svg/800px-Boston_Celtics.svg.png"
+    },
+    {
+      "id": 2,
+      "team": "New York Knicks",
+      "division": "Atlantic",
+      "standing": "2nd",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/New_York_Knicks_logo.svg/800px-New_York_Knicks_logo.svg.png"
+    },
+    {
+      "id": 3,
+      "team": "Philadelphia 76ers",
+      "division": "Atlantic",
+      "standing": "3rd",
+      "logo": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg"
+
+    },
+    {
+      "id": 4,
+      "team": "Brooklyn Nets",
+      "division": "Atlantic",
+      "standing": "4th",
+      "logo": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg"
+
+    },
+    {
+      "id": 5,
+      "team": "Toronto Raptors",
+      "division": "Atlantic",
+      "standing": "5th",
+      "logo": "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg"
+    },
+    {
+      "id": 6,
+      "team": "Milwaukee Bucks",
+      "division": "Central",
+      "standing": "1st",
+      "logo": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg"
+    },
+    {
+      "id": 7,
+      "team": "Cleveland Cavaliers",
+      "division": "Central",
+      "standing": "2nd",
+      "logo": "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg"
+    },
+    {
+      "id": 8,
+      "team": "Indiana Pacers",
+      "division": "Central",
+      "standing": "3rd",
+      "logo": "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg"
+    },
+    {
+      "id": 9,
+      "team": "Chicago Bulls",
+      "division": "Central",
+      "standing": "4th",
+      "logo": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg"
+    },
+    {
+      "id": 10,
+      "team": "Detroit Pistons",
+      "division": "Central",
+      "standing": "5th",
+      "logo": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg"
+    },
+    {
+      "id": 11,
+      "team": "Orlando Magic",
+      "division": "Southeast",
+      "standing": "1st",
+      "logo": "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg"
+    },
+    {
+      "id": 12,
+      "team": "Miami Heat",
+      "division": "Southeast",
+      "standing": "2nd",
+      "logo": "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg"
+    },
+    {
+      "id": 13,
+      "team": "Atlanta Hawks",
+      "division": "Southeast",
+      "standing": "3rd",
+      "logo": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg"
+    },
+    {
+      "id": 14,
+      "team": "Charlotte Hornets",
+      "division": "Southeast",
+      "standing": "4th",
+      "logo": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg"
+    },
+    {
+      "id": 15,
+      "team": "Washington Wizards",
+      "division": "Southeast",
+      "standing": "5th",
+      "logo": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg"
+    },
+    {
+      "id": 16,
+      "team": "Oklahoma City Thunder",
+      "division": "Northwest",
+      "standing": "1st",
+      "logo": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg"
+    },
+    {
+      "id": 17,
+      "team": "Denver Nuggets",
+      "division": "Northwest",
+      "standing": "2nd",
+      "logo": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg"
+    },
+    {
+      "id": 18,
+      "team": "Minnesota Timberwolves",
+      "division": "Northwest",
+      "standing": "3rd",
+      "logo": "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg"
+    },
+    {
+      "id": 19,
+      "team": "Utah Jazz",
+      "division": "Northwest",
+      "standing": "4th",
+      "logo": "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg"
+    },
+    {
+      "id": 20,
+      "team": "Portland Trail Blazers",
+      "division": "Northwest",
+      "standing": "5th",
+      "logo": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg"
+    },
+    {
+      "id": 21,
+      "team": "Los Angeles Clippers",
+      "division": "Pacific",
+      "standing": "1st",
+      "logo": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg"
+    },
+    {
+      "id": 22,
+      "team": "Phoenix Suns",
+      "division": "Pacific",
+      "standing": "2nd",
+      "logo": "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg"
+    },
+    {
+      "id": 23,
+      "team": "Los Angeles Lakers",
+      "division": "Pacific",
+      "standing": "3rd",
+      "logo": "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg"
+    },
+    {
+      "id": 24,
+      "team": "Sacramento Kings",
+      "division": "Pacific",
+      "standing": "4th",
+      "logo": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg"
+    },
+    {
+      "id": 25,
+      "team": "Golden State Warriors",
+      "division": "Pacific",
+      "standing": "5th",
+      "logo": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg"
+    },
+    {
+      "id": 26,
+      "team": "Dallas Mavericks",
+      "division": "Southwest",
+      "standing": "1st",
+      "logo": "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg"
+    },
+    {
+      "id": 27,
+      "teams": "New Orleans Pelicans",
+      "division": "Southwest",
+      "standing": "2nd",
+      "logo": "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg"
+    },
+    {
+      "id": 28,
+      "teams": "Houston Rockets",
+      "division": "Southwest",
+      "standing": "3rd",
+      "logo": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg"
+    },
+    {
+      "id": 29,
+      "teams": "Memphis Grizzlies",
+      "division": "Southwest",
+      "standing": "4th",
+      "logo": "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg"
+    },
+    {
+      "id": 30,
+      "teams": "San Antonio Spurs",
+      "division": "Southwest",
+      "standing": "5th",
+      "logo": "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg"
+    }
+  ],
+  "football": [
+    {
+      "id": 1,
+      "team": "Buffallo Bills",
+      "division": "AFC East",
+      "standing": "1st",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/BUF"
+    },
+    {
+      "id": 2,
+      "team": "Miami Dolphins",
+      "division": "AFC East",
+      "standing": "2nd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/MIA"
+    },
+    {
+      "id": 3,
+      "team": "New York Jets",
+      "division": "AFC East",
+      "standing": "3rd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NYJ"
+    },
+    {
+      "id": 4,
+      "team": "New England Patriots",
+      "division": "AFC East",
+      "standing": "4th",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NE"
+    },
+    {
+      "id": 5,
+      "team": "Baltimore Ravens",
+      "division": "AFC North",
+      "standing": "1st",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/BAL"
+    },
+    {
+      "id": 6,
+      "team": "Cleveland Browns",
+      "division": "AFC North",
+      "standing": "2nd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/CLE"
+    },
+    {
+      "id": 6,
+      "team": "Cincinnati Bengals",
+      "division": "AFC North",
+      "standing": "3rd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/CIN"
+    },
+    {
+      "id": 8,
+      "team": "Pittsburgh Steelers",
+      "division": "AFC North",
+      "standing": "4th",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/PIT"
+    },
+    {
+      "id": 9,
+      "team": "Houston Texans",
+      "division": "AFC South",
+      "standing": "1st",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/HOU"
+    },
+    {
+      "id": 10,
+      "team": "Jacksonville Jaguars",
+      "division": "AFC South",
+      "standing": "2nd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/JAX"
+    },
+    {
+      "id": 11,
+      "team": "Indianapolis Colts",
+      "division": "AFC South",
+      "standing": "3rd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/IND"
+    },
+    {
+      "id": 12,
+      "team": "Tennessee Titans",
+      "division": "AFC South",
+      "standing": "4th",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/TEN"
+    },
+    {
+      "id": 13,
+      "team": "Kansas City Chiefs",
+      "division": "AFC West",
+      "standing": "1st",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/KC"
+    },
+    {
+      "id": 14,
+      "team": "Las Vegas Raiders",
+      "division": "AFC West",
+      "standing": "2nd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/LV"
+    },
+    {
+      "id": 15,
+      "team": "Denver Broncos",
+      "division": "AFC West",
+      "standing": "3rd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/DEN"
+    },
+    {
+      "id": 16,
+      "team": "Los Angeles Chargers",
+      "division": "AFC West",
+      "standing": "4th",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/LAC"
+    },
+    {
+      "id": 17,
+      "team": "Dallas Cowboys",
+      "division": "NFC East",
+      "standing": "1st",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/DAL"
+    },
+    {
+      "id": 18,
+      "team": "Philadelphia Eagles",
+      "division": "NFC East",
+      "standing": "2nd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/PHI"
+    },
+    {
+      "id": 19,
+      "team": "New York Giants",
+      "division": "NFC East",
+      "standing": "3rd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NYG"
+    },
+    {
+      "id": 20,
+      "team": "Washington Commanders",
+      "division": "NFC East",
+      "standing": "4th",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/WAS"
+    },
+    {
+      "id": 21,
+      "team": "Detroit Lions",
+      "division": "NFC North",
+      "standing": "1st",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/DET"
+    },
+    {
+      "id": 22,
+      "team": "Green Bay Packers",
+      "division": "NFC North",
+      "standing": "2nd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/GB"
+    },
+    {
+      "id": 23,
+      "team": "Minnesota Vikings",
+      "division": "NFC North",
+      "standing": "3rd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/MIN"
+    },
+    {
+      "id": 24,
+      "team": "Chicago Bears",
+      "division": "NFC North",
+      "standing": "4th",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/CHI"
+    },
+    {
+      "id": 25,
+      "team": "Tampa Bay Buccaneers",
+      "division": "NFC South",
+      "standing": "1st",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/TB"
+    },
+    {
+      "id": 26,
+      "team": "New Orleans Saints",
+      "division": "NFC South",
+      "standing": "2nd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NO"
+    },
+    {
+      "id": 27,
+      "team": "Atlanta Falcons",
+      "division": "NFC South",
+      "standing": "3rd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/ATL"
+    },
+    {
+      "id": 28,
+      "team": "Carolina Panthers",
+      "division": "NFC South",
+      "standing": "4th",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/CAR"
+    },
+    {
+      "id": 29,
+      "team": "San Francisco 49ers",
+      "division": "NFC West",
+      "standing": "1st",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/SF"
+    },
+    {
+      "id": 30,
+      "team": "Los Angeles Rams",
+      "division": "NFC West",
+      "standing": "2nd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/LAR"
+    },
+    {
+      "id": 31,
+      "team": "Seattle Seahawks",
+      "division": "NFC West",
+      "standing": "3rd",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/SEA"
+    },
+    {
+      "id": 32,
+      "team": "Arizona Cardinals",
+      "division": "NFC West",
+      "standing": "4th",
+      "logo": "https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/ARI"
+    }
+
+  ]
+}

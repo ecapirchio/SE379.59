@@ -12,7 +12,7 @@ const Todo = () => {
         <>
             <div class="card">
                 <div class="card-content">
-                    <h2>Learn React</h2>
+                    <h2>Learn</h2>
                     <button onClick={() => setShowModal(true)} class="btn">Done</button>
                 </div>
             </div>
